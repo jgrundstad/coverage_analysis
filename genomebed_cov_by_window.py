@@ -46,6 +46,7 @@ def print_table():
   '''
   for id in IDS:
     sys.stdout.write("\t" + id)
+  sys.stdout.write("\n")
   for window_num in T:
     sys.stdout.write(str(window_num))
     for id in IDS:
